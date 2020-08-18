@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>CALCULATOR</title>
+<style type="text/css">
+body{
+		width:320px;
+		height:480px;
+}
+
+</style>
+</head>
+<body bgcolor= "#000000" text= "gold">
+<center>
+</body>
+<center><font size="35"> SIMPLE CALCULATOR </font>
+
+<form name="calculator" >
+<p>
+<input type="button" value="1" onClick="document.calculator.ans.value+='1'" style="width: 60px;height: 30px" />
+<input type="button" value="2" onClick="document.calculator.ans.value+='2'" style="width: 60px;height: 30px" />
+<input type="button" value="3" onClick="document.calculator.ans.value+='3'" style="width: 60px;height: 30px" /><br>
+<p>
+<input type="button" value="4" onClick="document.calculator.ans.value+='4'" style="width: 60px;height: 30px" />
+<input type="button" value="5" onClick="document.calculator.ans.value+='5'" style="width: 60px;height: 30px" />
+<input type="button" value="6" onClick="document.calculator.ans.value+='6'" style="width: 60px;height: 30px" /><br>
+<p>
+<input type="button" value="7" onClick="document.calculator.ans.value+='7'" style="width: 60px;height: 30px" />
+<input type="button" value="8" onClick="document.calculator.ans.value+='8'" style="width: 60px;height: 30px" />
+<input type="button" value="9" onClick="document.calculator.ans.value+='9'" style="width: 60px;height: 30px" />
+<p>
+<input type="button" value="0" onClick="document.calculator.ans.value+='0'" style="width: 60px;height: 30px" />
+<p>
+<input type="button" value="-" onClick="document.calculator.ans.value+='-'" style="width: 60px;height: 30px" />
+<input type="button" value="+" onClick="document.calculator.ans.value+='+'" style="width: 60px;height: 30px" /><br>
+<input type="button" value="*" onClick="document.calculator.ans.value+='*'" style="width: 60px;height: 30px" />
+<input type="button" value="/" onClick="document.calculator.ans.value+='/'" style="width: 60px;height: 30px" />
+<p>
+
+<input type="reset" value="CLEAR" style="width: 60px;height: 30px" />
+<input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)" style="width: 60px;height: 30px" />
+<center><br>Solution <input type="textfield" name="ans" value="" style="width: 250px;height: 40px"/>
+</form>
+</body>
+</html>
